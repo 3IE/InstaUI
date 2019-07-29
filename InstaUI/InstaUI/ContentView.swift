@@ -14,7 +14,10 @@ struct ContentView: View {
             List {
                 StoriesView()
                 PostCell()
+                PostCell()
+                PostCell()
             }.navigationBarTitle("InstaUI", displayMode: .inline)
+             .navigationBarItems(leading: Image("Camera"), trailing: Image("Direct"))
         }
     }
 }
